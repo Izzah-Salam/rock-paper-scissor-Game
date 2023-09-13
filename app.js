@@ -1,7 +1,9 @@
 "use strict";
 
 let HumanInput = document.querySelector(".HumanInputscore");
+
 let AIInput = document.querySelector(".AiInputscore");
+
 let ChangeMsg = document.querySelector("#messege-El");
 let humanscore = document.querySelector(".Humanscore");
 let Aiscore = document.querySelector(".AIScore");
