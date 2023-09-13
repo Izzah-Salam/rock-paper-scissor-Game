@@ -8,6 +8,7 @@ let ChangeMsg = document.querySelector("#messege-El");
 let humanscore = document.querySelector(".Humanscore");
 let Aiscore = document.querySelector(".AIScore");
 let HumanInputCheck = [];
+
 let HumanScore = 0;
 let AIScore = 0;
 
@@ -53,7 +54,7 @@ function aiInput() {
 // 	let CheckVal;
 // 	for (let i = 0; i < HumanInputCheck.length; i++) {
 // 		CheckVal = HumanInputCheck[i];
-// 	}
+//
 // 	if (AIval === CheckVal) {
 // 		ChangeMsg.textContent = "Draw";
 // 	} else if (AIval !== CheckVal) {
