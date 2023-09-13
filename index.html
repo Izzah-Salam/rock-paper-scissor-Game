@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Rock_Papper_Scissor</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Rock Papper Scissor</h1>
+			<p>With Artificial Intelligents</p>
+			<span> Score</span>
+			<table>
+				<tbody>
+					<tr>
+						<td class="Humanscore">0</td>
+						<td class="AIScore">0</td>
+					</tr>
+					<tr>
+						<td class="title">You</td>
+						<td class="title AItitle">AI</td>
+					</tr>
+					<tr>
+						<td class="HumanInputscore">-</td>
+						<td class="AiInputscore">-</td>
+					</tr>
+				</tbody>
+			</table>
+			<span id="messege-El">Start Game</span>
+			<div>
+				<button onclick="Rock()">Rock</button>
+				<button onclick="paper()">Papper</button>
+				<button onclick="scissor()">Sciccor</button>
+			</div>
+			<button id="reset" onclick="Reset()">Reset</button>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
